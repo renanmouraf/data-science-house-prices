@@ -28,7 +28,11 @@ jupyter-notebook Exploratory-Data-Analysis-House-Prices.ipynb
 
 Then, with the Jupyter Notebook open go to `Cell > Run All` to run all the commands.
 
-## Clean Data
+## Clean the Data, Machine Learning Model, Run API 
+
+The following steps must be executed in sequence.
+
+### Clean the Data
 
 To perform the cleaning process on the raw data:
 
@@ -38,7 +42,7 @@ python data_cleaning.py
 
 This will generate the 'cleaned_data.csv'.
 
-## Create the Machine Learning Model
+### Create the Machine Learning Model
 
 To train the model:
 
@@ -48,7 +52,7 @@ python train_model.py
 
 This will create the 'train.csv', 'test.csv', and 'model.pkl'.
 
-## Run and test the API
+### Run and test the API
 
 To run the API:
 
