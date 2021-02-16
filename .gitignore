@@ -4,3 +4,4 @@ test.csv
 train.csv
 venv/
 cleaned_data.csv
+.ipynb_checkpoints/
