@@ -1,8 +1,6 @@
 from fastapi import FastAPI
-from api_models import PredictReponse
 from datetime import datetime
 from predict import HousePriceModel
-
 
 app = FastAPI()
 
@@ -11,7 +9,7 @@ def root():
     return {"status": "online"}
 
 
-@app.post("/predict", response_model=PredictReponse)
+@app.post("/predict")
 def predict(inputs: dict):
 
     model = HousePriceModel()
@@ -20,7 +18,4 @@ def predict(inputs: dict):
     pred = model.predict(inputs)[0]
     dur = (datetime.today() - start).total_seconds()
 
-    # Create response object
-    response = PredictReponse(prediction=pred, duration=dur)
-
-    return response
+    return pred

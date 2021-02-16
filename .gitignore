@@ -1,0 +1,6 @@
+__pycache__/
+model.pkl
+test.csv
+train.csv
+venv/
+cleaned_data.csv
