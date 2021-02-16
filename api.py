@@ -8,7 +8,6 @@ app = FastAPI()
 def root():
     return {"status": "online"}
 
-
 @app.post("/predict")
 def predict(inputs: dict):
 
