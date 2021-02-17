@@ -10,7 +10,7 @@ In this repository you will find:
 * data_cleaning.py: The script that clean the data
 * train_model.py: The script to train the Machine Learning Model using the cleaned data
 * predict.py: The file with the HousePriceModel class that we use to load the ML model and make the predictions
-* api.py: The API created the framework [FastAPI](https://fastapi.tiangolo.com/)
+* api.py: The API was created the framework [FastAPI](https://fastapi.tiangolo.com/)
 * test_api.py: The script to test the API
 
 To use the data and code in the repository, follow the steps in the next sections.
