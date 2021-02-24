@@ -6,7 +6,7 @@ In this repository you will find:
 
 * requirements.txt: The packages you need to install using pip
 * raw_data.csv: The raw data we are using on this project
-* Exploratory-Data-Analysis-House-Prices.ipynb: The Jupyter Notebook with te Exploratory Data Analysis
+* Exploratory-Data-Analysis-House-Prices.ipynb: The Jupyter Notebook with the Exploratory Data Analysis
 * data_cleaning.py: The script that clean the data
 * train_model.py: The script to train the Machine Learning Model using the cleaned data
 * predict.py: The file with the HousePriceModel class that we use to load the ML model and make the predictions
