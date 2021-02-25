@@ -4,8 +4,6 @@ This repository implements a Data Science and Machine Learning project applied t
 
 **>>>[You can also watch how to run this project on Youtube](https://youtu.be/xEfCyb-0Wsk)<<<**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xEfCyb-0Wsk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 In this repository you will find:
 
 * requirements.txt: The packages you need to install using pip
