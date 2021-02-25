@@ -2,6 +2,8 @@
 
 This repository implements a Data Science and Machine Learning project applied to a House Prices dataset from the Kaggle competition [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
 
+**>>>[You can also watch how to run this project on Youtube](https://youtu.be/xEfCyb-0Wsk)<<<**
+
 In this repository you will find:
 
 * requirements.txt: The packages you need to install using pip
